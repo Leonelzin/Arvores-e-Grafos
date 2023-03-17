@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <sorting.h>
+#include "sorting.h"
 
 int main() {
   int n, i, main_calls = 0, swaps = 0, comparisons = 0;
