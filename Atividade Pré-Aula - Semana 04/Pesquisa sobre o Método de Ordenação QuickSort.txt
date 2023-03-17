@@ -1,0 +1,15 @@
+//Douglas Leonel de Almeida
+//Matricula - 2110213
+
+O Método de Ordenação QuickSort é um algoritmo bastante utilizado na computação para ordenar coleções de dados, como vetores e listas. Ele tem uma complexidade média de O(n*log n), o que o torna bastante eficiente em comparação a outros métodos de ordenação.
+
+As principais vantagens do QuickSort em relação a outros métodos de ordenação são:
+
+Eficiência em coleções grandes de dados;
+Algoritmo bastante conhecido e estudado;
+Não requer espaço adicional para a ordenação.
+No entanto, o QuickSort também possui algumas desvantagens:
+
+Não é tão eficiente em coleções pequenas de dados;
+Pode ter desempenho ruim se a escolha do pivô não for feita de forma adequada;
+É um algoritmo não estável, ou seja, pode alterar a ordem relativa dos elementos iguais.
