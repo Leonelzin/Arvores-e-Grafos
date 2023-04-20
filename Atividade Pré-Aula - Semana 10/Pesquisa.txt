@@ -1,0 +1,10 @@
+Douglas Leonel de Almeida
+Matricula - 2110213
+
+A complexidade de um algoritmo é uma medida de quão eficiente ele é em relação ao tempo de execução e ao uso de memória. No caso dos algoritmos de busca sequencial e binária, a complexidade é medida pelo número de comparações necessárias para encontrar o elemento procurado. É importante ressaltar que a complexidade pode variar dependendo do tamanho do conjunto de dados, do valor procurado e da distribuição dos dados.
+
+No melhor caso, a busca sequencial e a busca binária têm complexidade O(1) e O(1), respectivamente. Isso ocorre quando o elemento procurado é o primeiro elemento do conjunto de dados. Na busca sequencial, apenas uma comparação é necessária para encontrar o elemento. Na busca binária, o elemento é encontrado na primeira tentativa, já que o intervalo de busca é reduzido à metade a cada iteração.
+
+No pior caso, a busca sequencial tem complexidade O(n), enquanto a busca binária tem complexidade O(log n). Isso ocorre quando o elemento procurado é o último elemento do conjunto de dados ou não está presente no conjunto. Na busca sequencial, é necessário realizar n comparações para percorrer todo o conjunto de dados. Já na busca binária, o intervalo de busca é reduzido à metade a cada iteração, o que resulta em um número de comparações proporcional a log n.
+
+Em termos de eficiência, a busca binária é muito mais rápida do que a busca sequencial no pior caso. Isso ocorre porque a complexidade O(log n) cresce muito mais lentamente do que a complexidade O(n), à medida que o tamanho do conjunto de dados aumenta. Assim, para um conjunto de dados grande, a busca binária é muito mais eficiente do que a busca sequencial, especialmente se a busca for realizada várias vezes. No entanto, para conjuntos de dados pequenos ou para buscas ocasionais, a diferença de desempenho entre as duas técnicas pode não ser significativa.
