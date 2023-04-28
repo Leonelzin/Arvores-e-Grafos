@@ -1,0 +1,8 @@
+Douglas Leonel de Almeida
+Matricula - 2110213
+
+1 - Árvores são uma estrutura de dados muito útil para representar hierarquias ou estruturas em árvore, como a estrutura de um sistema de arquivos em um computador ou a hierarquia de departamentos de uma empresa. Alguns exemplos de problemas em que as árvores podem ser utilizadas incluem:
+
+Árvores de busca: em que a estrutura é utilizada para armazenar dados de forma organizada e otimizada para permitir a rápida busca e acesso a informações.
+Análise sintática de linguagens de programação: em que a árvore representa a estrutura hierárquica de um programa e é utilizada para validar sua sintaxe e interpretá-lo corretamente.
+Sistemas de recomendação: em que a árvore é utilizada para representar as preferências do usuário em relação a produtos ou conteúdo, permitindo recomendações personalizadas e eficientes.
