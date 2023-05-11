@@ -67,4 +67,6 @@ int main() {
     return 0;
 }
 
-//Essas funções podem ser chamadas a partir do main ou de outras funções que precisem realizar uma busca sequencial ou binária nos dados dos pacientes. É importante lembrar que a busca binária só funciona se o array estiver ordenado previamente.
+//Essas funções podem ser chamadas a partir do main ou de outras funções que precisem realizar uma busca sequencial ou binária nos dados dos pacientes. 
+
+//É importante lembrar que a busca binária só funciona se o array estiver ordenado previamente.
