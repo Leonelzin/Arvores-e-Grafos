@@ -8,13 +8,11 @@
 //Para realizar a busca binária, é necessário que o array esteja ordenado. Pode-se utilizar uma das funções de ordenação implementadas na APR 1 para ordenar o array antes de realizar a busca binária. A busca binária é uma estratégia que divide o array em duas metades e verifica se o valor desejado está na primeira ou na segunda metade. Esse processo é repetido até que o valor desejado seja encontrado ou até que o array seja reduzido a um único elemento que não é o valor desejado. Se o valor desejado for encontrado, a função deve retornar o índice do paciente no array. Caso contrário, a função deve retornar -1 para indicar que o paciente não foi encontrado.
 
 #include <iostream>
-#include <algorithm> // biblioteca para utilizar a função sort
-using namespace std;
 
 struct Paciente {
-    string nome;
     int idade;
-    // outras informações dos pacientes
+    std::string nome;
+    // outras informações relevantes
 };
 
 int buscaSequencial(Paciente* pacientes, int n, int idade_desejada) {
@@ -45,30 +43,25 @@ int buscaBinaria(Paciente* pacientes, int n, int idade_desejada) {
 }
 
 int main() {
-    // exemplo de utilização das funções de busca
-    Paciente pacientes[5] = {{"João", 20}, {"Maria", 30}, {"Pedro", 40}, {"Ana", 50}, {"Lucas", 60}};
-    int n = 5;
-    int idade_desejada = 40;
+    Paciente pacientes[5];
+    // preencher o array de pacientes com informações relevantes
 
-    // ordena o array de pacientes por idade
-    sort(pacientes, pacientes + n, [](Paciente a, Paciente b) {
-        return a.idade < b.idade;
-    });
-
-    // busca sequencial
-    int indice_sequencial = buscaSequencial(pacientes, n, idade_desejada);
+    // buscar um paciente com idade 30 usando busca sequencial
+    int indice_sequencial = buscaSequencial(pacientes, 5, 30);
     if(indice_sequencial != -1) {
-        cout << "Paciente encontrado na posição " << indice_sequencial << " (busca sequencial)" << endl;
+        std::cout << "Paciente encontrado: " << pacientes[indice_sequencial].nome << std::endl;
     } else {
-        cout << "Paciente não encontrado (busca sequencial)" << endl;
+        std::cout << "Paciente nao encontrado." << std::endl;
     }
 
-    // busca binária
-    int indice_binaria = buscaBinaria(pacientes, n, idade_desejada);
+    // ordenar o array de pacientes por idade (usando uma função de ordenação apropriada)
+
+    // buscar um paciente com idade 30 usando busca binária
+    int indice_binaria = buscaBinaria(pacientes, 5, 30);
     if(indice_binaria != -1) {
-        cout << "Paciente encontrado na posição " << indice_binaria << " (busca binária)" << endl;
+        std::cout << "Paciente encontrado: " << pacientes[indice_binaria].nome << std::endl;
     } else {
-        cout << "Paciente não encontrado (busca binária)" << endl;
+        std::cout << "Paciente nao encontrado." << std::endl;
     }
 
     return 0;
