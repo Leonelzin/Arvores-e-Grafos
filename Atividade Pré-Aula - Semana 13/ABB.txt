@@ -1,0 +1,16 @@
+Douglas Leonel de Almeida
+Matricula - 2110213
+
+A sequência correta de inserção que gerou essa ABB é: 50, 30, 70, 20, 40, 60, 80.
+
+Isso pode ser explicado pelo fato de que, ao inserir o primeiro elemento, 50, ele se torna a raiz da árvore. Em seguida, o elemento 30 é inserido à esquerda da raiz, pois é menor que 50. 
+
+O elemento 70 é inserido à direita da raiz, pois é maior que 50.
+
+Em seguida, o elemento 20 é inserido à esquerda do nó 30, pois é menor que 30. 
+
+O elemento 40 é inserido à direita do nó 30, pois é maior que 20 e menor que 50. O elemento 60 é inserido à esquerda do nó 70, pois é menor que 70 e maior que 50. 
+
+Finalmente, o elemento 80 é inserido à direita do nó 70, pois é maior que 70.
+
+Dessa forma, a sequência correta de inserção que gerou essa ABB é 50, 30, 70, 20, 40, 60, 80.
