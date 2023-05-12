@@ -1,0 +1,29 @@
+Douglas Leonel de Almeida
+Matricula - 21102133
+
+1- Questão: Percorrendo a árvore binária a seguir em pré-ordem, qual
+sequência de caracteres é obtida? Explique sua resposta.
+
+Resposta: A B D E C F G
+
+A travessia pré-ordem começa visitando a raiz da árvore, que é o nó "A". 
+
+Em seguida, a travessia segue para a subárvore esquerda, visitando o nó "B".
+Depois, a travessia segue para a subárvore esquerda da subárvore esquerda,
+visitando o nó "D". 
+
+Em seguida, a travessia visita o nó "E", que é o filho direito
+do nó "D".
+
+Depois de visitar todos os nós da subárvore esquerda, a travessia retorna para o
+nó "B" e visita o seu filho direito, que é o nó "C". 
+
+Em seguida, a travessia segue
+para a subárvore direita, visitando o nó "F". Depois, a travessia visita o nó "G",
+que é o filho direito do nó "F".
+
+Finalmente, a travessia pré-ordem termina após visitar todos os nós da
+subárvore direita. 
+
+Portanto, a sequência de caracteres obtida ao percorrer a
+árvore binária em pré-ordem é "A B D E C F G"
