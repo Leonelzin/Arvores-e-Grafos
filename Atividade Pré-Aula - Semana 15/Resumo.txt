@@ -1,0 +1,24 @@
+Douglas Leonel de Almeida
+Matricula - 2110213
+
+Árvores são estruturas de dados amplamente utilizadas na ciência da computação que permitem armazenar e organizar informações de forma hierárquica. Elas consistem em um conjunto de nós interconectados por meio de arestas, em que cada nó possui um valor e zero ou mais nós filhos.
+
+Uma árvore binária é um tipo específico de árvore em que cada nó pode ter no máximo dois filhos: um filho à esquerda e um filho à direita. 
+
+Essa estrutura divide-se em três partes: nó raiz, nós internos e nós folha. O nó raiz é o primeiro nó da árvore, os nós internos são aqueles que possuem filhos e os nós folha são os nós sem filhos, localizados nas extremidades da estrutura.
+
+As árvores binárias podem ser implementadas de várias maneiras, mas todas seguem a mesma estrutura básica. Cada nó contém um valor e referências aos seus filhos. 
+
+A ordem dos nós na árvore binária é importante, pois determina a forma como os dados serão organizados. 
+
+Essas estruturas são amplamente utilizadas em algoritmos de busca, percorrendo os nós de acordo com a ordem especificada para localizar informações específicas.
+
+As árvores binárias de busca (BST - Binary Search Trees) são um tipo especial de árvore binária que possui uma propriedade adicional: para cada nó, todos os valores nos nós da subárvore esquerda são menores que o valor do nó em questão, e todos os valores nos nós da subárvore direita são maiores. 
+
+Essa propriedade torna as árvores binárias de busca uma estrutura de dados eficiente para realizar operações de busca, inserção e exclusão de elementos em tempo médio logarítmico.
+
+As árvores binárias de busca permitem a organização eficiente dos dados, o que facilita a busca rápida de elementos. 
+
+Essa estrutura é amplamente utilizada em algoritmos de ordenação, em bancos de dados, na implementação de mapas e conjuntos, entre outras aplicações.
+
+Em resumo, as árvores são estruturas de dados hierárquicas, as árvores binárias são uma forma específica de árvore com no máximo dois filhos, e as árvores binárias de busca são um tipo especial de árvore binária que permite busca eficiente dos elementos com base em sua ordem.
