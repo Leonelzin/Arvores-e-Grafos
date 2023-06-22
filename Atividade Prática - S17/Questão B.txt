@@ -1,0 +1,12 @@
+Douglas Leonel de Almeida
+Matricula - 2110213
+
+TAREFA 1: 4 dias
+TAREFA 2: 3 + 4 = 7 dias
+TAREFA 3: 7 + 7 = 14 dias
+TAREFA 4: 14 + 6 = 20 dias
+TAREFA 5: 14 + 4 = 18 dias
+TAREFA 6: max (TAREFA 4, TAREFA 5) + TAREFA 6 = 20 + 6 = 26 dias
+TAREFA 7: 14 + 5 = 19 dias
+TAREFA 8: 26 + 5 = 31 dias
+TAREFA 9: max (TAREFA 7, TAREFA 8) + TAREFA 9 = 31 + 5 = 36 dias. 
